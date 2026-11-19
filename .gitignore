@@ -1,0 +1,7 @@
+# Временные файлы генерации
+tools/*.log
+tools/*.tmp
+*.tmp
+*.bak
+Thumbs.db
+desktop.ini

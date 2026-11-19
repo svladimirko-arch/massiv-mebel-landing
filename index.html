@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>МАССИВ — кухни из дерева и корпусная мебель на заказ</title>
+<meta name="description" content="Мебельная мастерская «МАССИВ»: кухни из массива дерева и корпусная мебель на заказ. Свой столярный цех, бесплатный замер и дизайн-проект, гарантия 3 года.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪵</text></svg>">
+</head>
+<body>
+
+<!-- ================= PRELOADER ================= -->
+<div class="preloader" id="preloader">
+  <div class="preloader__inner">
+    <div class="preloader__logo">
+      <svg viewBox="0 0 48 48" width="64" height="64" fill="none">
+        <path d="M8 40V8l16 18L40 8v32" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>МАССИВ</span>
+    </div>
+    <div class="preloader__bar"><i id="preloaderBar"></i></div>
+    <div class="preloader__hint">Собираем интерьер…</div>
+  </div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header__row">
+    <a href="#hero" class="logo" data-scroll>
+      <svg viewBox="0 0 48 48" width="38" height="38" fill="none">
+        <path d="M8 40V8l16 18L40 8v32" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="logo__text">МАССИВ<small>мебель на заказ</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#about" data-scroll>О нас</a>
+      <a href="#portfolio" data-scroll>Портфолио</a>
+      <a href="#contacts" data-scroll>Контакты</a>
+      <a href="#contacts" data-scroll class="nav__btn">Заказать расчёт</a>
+      <a class="nav__phone" href="tel:+70000000000"><!-- ЗАГЛУШКА: телефон -->+7 (XXX) XXX-XX-XX</a>
+    </nav>
+    <a class="header__phone" href="tel:+70000000000"><!-- ЗАГЛУШКА: телефон -->
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.6 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>+7 (XXX) XXX-XX-XX</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Меню"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<!-- ================= БЛОК 1: ГЛАВНЫЙ ================= -->
+<section class="hero" id="hero">
+  <div class="hero__media">
+    <img src="assets/img/hero-kitchen.jpg" alt="Кухня из массива дерева" class="hero__poster" id="heroPoster">
+    <div class="hero__overlay"></div>
+    <div class="hero__grain"></div>
+  </div>
+
+  <div class="container hero__content">
+    <div class="hero__badge" data-hero="1"><i class="pulse"></i>Свой столярный цех · без посредников</div>
+    <h1 class="hero__title">
+      <span class="line" data-hero="2">Кухни из массива</span>
+      <span class="line" data-hero="3">и корпусная мебель</span>
+      <span class="line accent-row" data-hero="4">на заказ</span>
+    </h1>
+    <p class="hero__sub" data-hero="5">
+      Проектируем, изготавливаем и монтируем мебель под ваш интерьер.
+      <b>Натуральное дерево, точные размеры, честные сроки.</b>
+    </p>
+    <div class="hero__cta" data-hero="6">
+      <a href="#contacts" class="btn btn--primary" data-scroll>
+        Заказать расчёт
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#portfolio" class="btn btn--ghost" data-scroll>Смотреть работы</a>
+    </div>
+    <ul class="hero__usp" data-hero="7">
+      <li><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Замер и проект — бесплатно</li>
+      <li><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Собственное производство</li>
+      <li><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Гарантия 3 года</li>
+    </ul>
+  </div>
+
+  <div class="hero__stats container">
+    <div class="stat"><b data-counter="12">0</b><span>лет в дереве</span></div>
+    <div class="stat"><b><i data-counter="480">0</i>+</b><span>проектов сдано</span></div>
+    <div class="stat"><b><i data-counter="0">0</i>&nbsp;₽</b><span>предоплата</span></div>
+    <div class="stat"><b data-counter="3">0</b><span>года гарантии</span></div>
+  </div>
+
+  <a href="#about" class="hero__scroll" data-scroll aria-label="Вниз">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 5v14m-6-6 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</section>
+
+<!-- бегущая строка — декоративный элемент главного блока -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Кухни из массива</span><em>◆</em><span>Корпусная мебель</span><em>◆</em><span>Гардеробные</span><em>◆</em><span>Стеллажи</span><em>◆</em><span>Спальни</span><em>◆</em><span>Гостиные</span><em>◆</em><span>Столы и стулья</span><em>◆</em>
+    <span>Кухни из массива</span><em>◆</em><span>Корпусная мебель</span><em>◆</em><span>Гардеробные</span><em>◆</em><span>Стеллажи</span><em>◆</em><span>Спальни</span><em>◆</em><span>Гостиные</span><em>◆</em><span>Столы и стулья</span><em>◆</em>
+  </div>
+</div>
+
+<!-- ================= БЛОК 2: О НАС ================= -->
+<section class="section about" id="about">
+  <div class="container about__row">
+    <div class="about__media" data-reveal>
+      <div class="about__img parallax-img"><img src="assets/img/about-workshop.jpg" alt="Мастерская мебели «МАССИВ»"></div>
+      <div class="about__exp"><b>12</b><span>лет<br>с деревом на ТЫ</span></div>
+      <div class="about__frame"></div>
+    </div>
+    <div class="about__text">
+      <div class="section__head" data-reveal>
+        <span class="section__tag">О нас</span>
+        <h2 class="section__title">Мебель, которую <br>не стыдно передать детям</h2>
+      </div>
+      <p data-reveal>Мы — мебельная мастерская «МАССИВ». Создаём не из каталога, а под вашу квартиру: замеряем до миллиметра, рисуем проект и собираем изделия в своём столярном цехе. Никаких субподрядчиков и «приклеенных» фасадов — только дерево, фурнитура и аккуратные руки мастеров.</p>
+      <p data-reveal>Работаем с массивом дуба, ясеня, ореха и вишни. Сочетаем дерево с современными материалами, поэтому кухня выглядит дорого, а шкафы остаются вместительными. Каждое изделие проходит сборку и проверку в цехе перед монтажом у вас дома.</p>
+      <ul class="about__list">
+        <li data-reveal><b>Свой цех:</b><span>пиломатериалы, распил, сборка и финишная отделка — на одной площадке</span></li>
+        <li data-reveal><b>Честный проект:</b><span>сметы без сюрпризов, цена фиксируется до начала производства</span></li>
+        <li data-reveal><b>Точная посадка:</b><span>изготавливаем по замерам вашего помещения, а не по стандартным модулям</span></li>
+      </ul>
+      <div class="about__cta" data-reveal>
+        <a href="#contacts" class="btn btn--primary" data-scroll>Обсудить проект</a>
+        <div class="about__note">Замер, консультация <br>и дизайн-проект — 0 ₽</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= БЛОК 3: ПОРТФОЛИО ================= -->
+<section class="section portfolio" id="portfolio">
+  <div class="container">
+    <div class="section__head section__head--row" data-reveal>
+      <div>
+        <span class="section__tag">Портфолио</span>
+        <h2 class="section__title">Наши работы</h2>
+      </div>
+      <p class="section__desc">Пять проектов из нашей мастерской. Приезжайте — покажем живые образцы дерева и фурнитуры и расскажем, как это делалось.</p>
+    </div>
+
+    <div class="portfolio__grid">
+      <article class="work work--tall" data-reveal data-lightbox="assets/img/portfolio-1.jpg">
+        <img src="assets/img/portfolio-1.jpg" alt="Кухня из массива дуба" loading="eager">
+        <div class="work__info">
+          <span class="work__tag">Кухни из массива</span>
+          <h3>Кухня из дуба, 4,2 м</h3>
+          <div class="work__meta"><span>массив дуба</span><span>8 недель</span><span>от 480 000 ₽<!-- ЗАГЛУШКА: цена --></span></div>
+        </div>
+      </article>
+      <article class="work" data-reveal data-lightbox="assets/img/portfolio-2.jpg">
+        <img src="assets/img/portfolio-2.jpg" alt="Современная кухня из массива ореха" loading="eager">
+        <div class="work__info">
+          <span class="work__tag">Кухни</span>
+          <h3>Кухня из ореха с островом</h3>
+          <div class="work__meta"><span>массив ореха</span><span>10 недель</span><span>от 720 000 ₽<!-- ЗАГЛУШКА: цена --></span></div>
+        </div>
+      </article>
+      <article class="work" data-reveal data-lightbox="assets/img/portfolio-3.jpg">
+        <img src="assets/img/portfolio-3.jpg" alt="Гардеробная из массива дуба" loading="eager">
+        <div class="work__info">
+          <span class="work__tag">Хранение</span>
+          <h3>Гардеробная 6 м²</h3>
+          <div class="work__meta"><span>дуб + подсветка</span><span>5 недель</span><span>от 310 000 ₽<!-- ЗАГЛУШКА: цена --></span></div>
+        </div>
+      </article>
+      <article class="work" data-reveal data-lightbox="assets/img/portfolio-4.jpg">
+        <img src="assets/img/portfolio-4.jpg" alt="Стеллажная стена из массива" loading="eager">
+        <div class="work__info">
+          <span class="work__tag">Гостиные</span>
+          <h3>Стеллаж с камином</h3>
+          <div class="work__meta"><span>массив ясеня</span><span>7 недель</span><span>от 390 000 ₽<!-- ЗАГЛУШКА: цена --></span></div>
+        </div>
+      </article>
+      <article class="work" data-reveal data-lightbox="assets/img/portfolio-5.jpg">
+        <img src="assets/img/portfolio-5.jpg" alt="Спальня с мебелью из массива дуба" loading="eager">
+        <div class="work__info">
+          <span class="work__tag">Спальни</span>
+          <h3>Спальня из массива</h3>
+          <div class="work__meta"><span>дуб, лён</span><span>6 недель</span><span>от 260 000 ₽<!-- ЗАГЛУШКА: цена --></span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= БЛОК 4: КОНТАКТЫ ================= -->
+<section class="section contacts" id="contacts">
+  <div class="container">
+    <div class="contacts__box" data-reveal>
+      <div class="contacts__info">
+        <span class="section__tag section__tag--light">Контакты</span>
+        <h2>Обсудим вашу <br>мебель?</h2>
+        <p>Оставьте контакты — перезвоним в течение 15 минут, ответим на вопросы и договоримся о бесплатном замере.</p>
+        <ul class="contacts__points">
+          <li>Замер и дизайн-проект — бесплатно</li>
+          <li>Смета фиксируется до производства</li>
+          <li>Привезём образцы дерева и фурнитуры</li>
+        </ul>
+        <div class="contacts__list">
+          <div class="contacts__item">
+            <span>Телефон</span>
+            <a href="tel:+70000000000" class="contacts__phone">+7 (XXX) XXX-XX-XX</a><!-- ЗАГЛУШКА: телефон -->
+          </div>
+          <div class="contacts__item">
+            <span>E-mail</span>
+            <a href="mailto:info@example.ru" class="contacts__mail">info@example.ru</a><!-- ЗАГЛУШКА: e-mail -->
+          </div>
+          <div class="contacts__item">
+            <span>Адрес цеха</span>
+            <span class="contacts__addr">г. __________, ул. __________, __</span><!-- ЗАГЛУШКА: адрес -->
+          </div>
+          <div class="contacts__item">
+            <span>Режим работы</span>
+            <span class="contacts__addr">Пн–Сб, 9:00–19:00</span>
+          </div>
+        </div>
+      </div>
+      <form class="contacts__form" id="orderForm" novalidate>
+        <div class="field">
+          <label for="f-name">Ваше имя</label>
+          <input id="f-name" name="name" type="text" placeholder="Как к вам обращаться" required>
+        </div>
+        <div class="field">
+          <label for="f-phone">Телефон <b>*</b></label>
+          <input id="f-phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" required>
+        </div>
+        <div class="field">
+          <label for="f-type">Что планируете заказать?</label>
+          <select id="f-type" name="type">
+            <option value="kitchen">Кухню из массива</option>
+            <option value="wardrobe">Гардеробную / шкаф</option>
+            <option value="living">Мебель для гостиной</option>
+            <option value="bedroom">Мебель для спальни</option>
+            <option value="other">Другое (опишу в комментарии)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-comment">Комментарий</label>
+          <textarea id="f-comment" name="comment" rows="3" placeholder="Размеры помещения, идеи, сроки, материал…"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+          Получить расчёт
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <label class="contacts__policy">
+          <input type="checkbox" id="f-agree" checked required>
+          <span>Согласен на обработку персональных данных</span>
+        </label>
+        <div class="contacts__success" id="formSuccess">
+          <svg viewBox="0 0 24 24" width="44" height="44" fill="none"><circle cx="12" cy="12" r="11" stroke="currentColor" stroke-width="2"/><path d="m8 12.5 2.5 2.5L16 9.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <b>Заявка принята!</b>
+          <span>Перезвоним в течение 15 минут в рабочее время.</span>
+        </div>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__row">
+        <a href="#hero" class="logo logo--footer" data-scroll>
+          <svg viewBox="0 0 48 48" width="34" height="34" fill="none">
+            <path d="M8 40V8l16 18L40 8v32" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="logo__text">МАССИВ<small>мебель на заказ</small></span>
+        </a>
+        <nav class="footer__nav">
+          <a href="#about" data-scroll>О нас</a>
+          <a href="#portfolio" data-scroll>Портфолио</a>
+          <a href="#contacts" data-scroll>Контакты</a>
+        </nav>
+        <span class="footer__copy">© 2026 Мастерская «МАССИВ». Цены на сайте не являются публичной офертой.</span>
+      </div>
+    </footer>
+  </div>
+</section>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" aria-label="Закрыть">✕</button>
+  <img alt="">
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
