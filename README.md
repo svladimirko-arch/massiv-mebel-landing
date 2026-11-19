@@ -2,6 +2,12 @@
 
 Одностраничный продающий сайт по заданию: https://www.fl.ru/projects/5529789/nado-sdelat-sayt-dlya-mebelnoy-kompanii.html
 
+**Демо (GitHub Pages):** https://svladimirko-arch.github.io/massiv-mebel-landing/
+**Репозиторий:** https://github.com/svladimirko-arch/massiv-mebel-landing
+
+В папке лежит файл `отклик.md` — готовый краткий отклик на задание,
+и ярлык `Открыть сайт.lnk` — быстрый открыватор `index.html` в браузере.
+
 ## Структура — ровно 4 блока
 
 1. `#hero` — главный экран с анимацией по эталону `C:\Users\svlad\OneDrive\Документы\Стройка\site`:
